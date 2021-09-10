@@ -32,50 +32,6 @@ body {
 	line-height: 1;
 }
 
-/*
-Cutom CSS:
-*/
-
-.section-title {
-	font-size: 1.1em;
-    font-weight: 900;
-    line-height: 1.5;
-    margin: 1.5em 3em 0;
-    text-transform: uppercase;
-    letter-spacing: 0.35em;
-}
-
-#skills .inner {
-    padding-top: 60px;
-    /* border-top: solid 1px lightgray; */
-    margin-bottom: 30px;
-	width: 100%;
-    max-width: 68em;
-    margin: 0 auto;
-    padding: 0 2.5em;
-}
-
-.inner p {
-	font-size: 1.1em;
-}
-
-#skills .logos {
-    width: 100%;
-    height: 20%;
-    display: flex;
-    flex-wrap: wrap;
-    object-fit: contain;
-}
-
-#skills .technology {
-    width: 200px;
-    height: 200px;
-    display: flex;
-    object-fit: contain;
-    margin: 30px;
-    align-items: center;
-}
-
 ol, ul {
 	list-style: none;
 }
@@ -4189,3 +4145,47 @@ input, select, textarea {
 		}
 
 	}
+
+	/*
+Cutom CSS:
+*/
+
+.section-title {
+	font-size: 1.1em;
+    font-weight: 900;
+    line-height: 1.5;
+    margin: 1.5em 3em 0;
+    text-transform: uppercase;
+    letter-spacing: 0.35em;
+}
+
+#skills .inner {
+    padding-top: 60px;
+    /* border-top: solid 1px lightgray; */
+    margin-bottom: 30px;
+	width: 100%;
+    max-width: 68em;
+    margin: 0 auto;
+    padding: 0 2.5em;
+}
+
+.inner p {
+	font-size: 1.1em;
+}
+
+#skills .logos {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    object-fit: contain;
+}
+
+#skills .technology {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    object-fit: contain;
+    margin: 30px;
+    align-items: center;
+}
